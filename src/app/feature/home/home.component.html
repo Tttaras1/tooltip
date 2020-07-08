@@ -1,0 +1,111 @@
+<div class="article">
+
+    <section class="article__container">
+        <img class="article__img" src="https://picsum.photos/500/300?grayscale" width="500" alt="img">
+        <div class="article__description">
+            <h2 class="article__caption">Lorem ipsum dolor sit amet consectetur adipisicing elit</h2>
+            <div class="article__text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, harum nisi quo quidem eligendi qui molestias tenetur blanditiis totam! Ad cupiditate quis ullam iste tenetur blanditiis commodi, inventore tempore exercitationem?
+                Assumenda ab molestias, repudiandae possimus, velit accusantium quam necessitatibus nostrum praesentium ipsum facere dolorem. Officiis similique autem voluptatibus eveniet velit distinctio esse ex et facilis? Sapiente doloribus ducimus repellendus incidunt.
+                Quaerat nulla perspiciatis magnam harum fugiat quidem quos aut consectetur?
+                Tenetur perferendis qui nobis voluptas
+            </div>
+            <app-button tabindex="0" appTooltip [template]="tooltip">
+                some simple text
+            </app-button>
+        </div>
+    </section>
+    
+    <section class="article__container">
+        <img class="article__img" src="https://picsum.photos/seed/picsum/500/300" width="500" alt="img">
+        <div class="article__description">
+            <h2 class="article__caption">Lorem ipsum dolor sit amet consectetur adipisicing elit</h2>
+            <div class="article__text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, harum nisi quo quidem eligendi qui molestias tenetur blanditiis totam! Ad cupiditate quis ullam iste tenetur blanditiis commodi, inventore tempore exercitationem?
+                Assumenda ab molestias, repudiandae possimus, velit accusantium quam necessitatibus nostrum praesentium ipsum facere dolorem. Officiis similique autem voluptatibus eveniet velit distinctio esse ex et facilis? Sapiente doloribus ducimus repellendus incidunt.
+                Quaerat nulla perspiciatis magnam harum fugiat quidem quos aut consectetur?
+                Tenetur perferendis qui nobis voluptas
+            </div>
+            <app-button tabindex="0" appTooltip [template]="tooltip1">
+                some simple text
+            </app-button>
+        </div>
+    </section>
+
+    <section class="article__container">
+        <img class="article__img" src="https://picsum.photos/500/300?blur" width="500" alt="img">
+        <div class="article__description">
+            <h2 class="article__caption">Lorem ipsum dolor sit amet consectetur adipisicing elit</h2>
+            <div class="article__text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, harum nisi quo quidem eligendi qui molestias tenetur blanditiis totam! Ad cupiditate quis ullam iste tenetur blanditiis commodi, inventore tempore exercitationem?
+                Assumenda ab molestias, repudiandae possimus, velit accusantium quam necessitatibus nostrum praesentium ipsum facere dolorem. Officiis similique autem voluptatibus eveniet velit distinctio esse ex et facilis? Sapiente doloribus ducimus repellendus incidunt.
+                Quaerat nulla perspiciatis magnam harum fugiat quidem quos aut consectetur?
+                Tenetur perferendis qui nobis voluptas
+            </div>
+            <app-button tabindex="0" appTooltip [template]="tooltip2">
+                some simple text
+            </app-button>
+        </div>
+    </section>
+
+    <section class="article__container">
+        <img class="article__img" src="https://picsum.photos/500/300?grayscale&blur=2" width="500" alt="img">
+        <div class="article__description">
+            <h2 class="article__caption">Lorem ipsum dolor sit amet consectetur adipisicing elit</h2>
+            <div class="article__text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, harum nisi quo quidem eligendi qui molestias tenetur blanditiis totam! Ad cupiditate quis ullam iste tenetur blanditiis commodi, inventore tempore exercitationem?
+                Assumenda ab molestias, repudiandae possimus, velit accusantium quam necessitatibus nostrum praesentium ipsum facere dolorem. Officiis similique autem voluptatibus eveniet velit distinctio esse ex et facilis? Sapiente doloribus ducimus repellendus incidunt.
+                Quaerat nulla perspiciatis magnam harum fugiat quidem quos aut consectetur?
+                Tenetur perferendis qui nobis voluptas
+            </div>
+            <app-button tabindex="0" appTooltip [template]="tooltip3">
+                some simple text
+            </app-button>
+        </div>
+    </section>
+
+    <section class="article__container">
+        <img class="article__img" src="https://picsum.photos/500/300" width="500" alt="img">
+        <div class="article__description">
+            <h2 class="article__caption">Lorem ipsum dolor sit amet consectetur adipisicing elit</h2>
+            <div class="article__text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, harum nisi quo quidem eligendi qui molestias tenetur blanditiis totam! Ad cupiditate quis ullam iste tenetur blanditiis commodi, inventore tempore exercitationem?
+                Assumenda ab molestias, repudiandae possimus, velit accusantium quam necessitatibus nostrum praesentium ipsum facere dolorem. Officiis similique autem voluptatibus eveniet velit distinctio esse ex et facilis? Sapiente doloribus ducimus repellendus incidunt.
+                Quaerat nulla perspiciatis magnam harum fugiat quidem quos aut consectetur?
+                Tenetur perferendis qui nobis voluptas
+            </div>
+            <app-button tabindex="0" appTooltip [template]="tooltip4">
+                some simple text
+            </app-button>
+        </div>
+    </section>
+</div>
+
+<div #tooltip>
+    <span>
+        Some tooltip text
+    </span>
+</div>
+
+<div #tooltip1>
+    some
+    <br>
+    tooltip
+    <br>
+    text
+</div>
+
+<div #tooltip2 style="color: green">
+    some
+    <br>
+    text
+</div>
+
+<div #tooltip3 style="color: green">
+    <h2>Some caption tooltip</h2>
+</div>
+
+<div #tooltip4 style="color: green">
+    <img src="https://picsum.photos/15" alt="tooltip image"/>
+    <span>some tooltip with image</span>
+</div>

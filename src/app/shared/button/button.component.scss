@@ -1,0 +1,22 @@
+.button-container {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    border: 1px solid rgba(0,0,0,.2);
+    outline: none;
+    transition: .2s;
+    background-color: rgba(0,0,0,.1);
+
+    &__content {
+        padding: 10px;
+    }
+
+    &:hover {
+        border-color: rgba(0,0,0,.4);
+        cursor: pointer;
+    }
+
+    &:active {
+        background-color: rgba(0,0,0,.15);
+    }
+}
